@@ -9,6 +9,7 @@ public class App
     public static void main( String[] args )
     {
         System.out.println(sayHello());
+        System.out.println(sayHelloToSomeone("Keeley"));
         System.out.println(sayHelloToSomeone("Alice"));
         System.out.println(sayHelloToSomeone("Bob"));
         System.out.println(sayHelloToSomeone("Charlie"));
@@ -25,6 +26,6 @@ public class App
     }
 
     public static String sayHelloToSomeone(String name){
-        return "Hello " + name ;
+        return "Hello " + name + "!";
     }
 }
